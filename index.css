@@ -25,7 +25,7 @@ time, mark, audio, video {
 header{
     display: grid;
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Assets/IMG_5292.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../Assets/IMG_5292.png);
     background-size: cover;
     color: hsl(var(--clr-white));
     overflow: hidden;
