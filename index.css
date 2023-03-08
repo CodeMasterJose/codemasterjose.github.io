@@ -1,0 +1,164 @@
+@import url(/Website_Portfolio/styles.css);
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, span, var,
+b, i,
+dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   vertical-align: center;
+   background: transparent;
+   color: hsl(var(--clr-white));
+}
+
+header{
+    display: grid;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/Portfolio-Website/Assets/IMG_5292.JPG);
+    background-size: cover;
+    color: hsl(var(--clr-white));
+    overflow: hidden;
+}
+body{
+    font-family: var(--ff-Titillium);
+}
+
+.front-banner{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.front-banner ul{
+    padding-top: 20px;
+}
+
+.front-banner ul li a i:hover{
+    color: hsl(var(--clr-accent));
+    transition: .3s;
+}
+
+
+#about{
+    display: block;
+    height: auto;
+    background-color: hsl(var(--clr-gray));
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+    font-size: var(--fs-700);
+    text-shadow: 0px 0px 2px black;
+}
+
+h2{
+    color: rgba(225, 225, 225, 0.6);
+    font-size: var(--fs-300);
+}
+
+h3{
+    text-align: center;
+    font-size: var(--fs-500);
+    color: hsl(var(--clr-accent));
+}
+
+h4{
+    color: rgba(225, 225, 225, 0.6);
+    font-size: var(--fs-400);
+    text-decoration: underline;
+}
+
+p{
+    font-size: var(--fs-300);
+    letter-spacing: 1px;
+    text-indent: 50px;
+}
+
+.intro{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.intro img{
+    height: 12rem;
+    width: 12rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+span{
+    color: hsl(var(--clr-white));
+}
+
+
+#navbar{
+    position: fixed;
+    display: block;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 100%;
+    padding: 15px;
+    
+}
+
+nav, ul, li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-right:30px;
+  }
+
+nav ul li a{
+    text-decoration: none;
+    color: hsl(var(--clr-accent));
+}
+
+nav ul li a:hover{
+    color: hsl(var(--clr-white));
+    transition: .3s;
+}
+
+#projects{
+    display:block;
+    background-color: hsl(var(--clr-darkgray));
+    height: 100vh;
+    padding-top: 60px;
+}
+
+
+#contact{
+    display: block;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+#about .skillz {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+#about .skillz li p {
+    text-indent: 0px;
+}
